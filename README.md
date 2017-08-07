@@ -5,3 +5,6 @@ Use this starter template as a base for creating other Ubiweb templates.
 These are our available templates, all made with the starter as a base:
 
 - Coming soon. 
+
+## Dev Preview
+- Run `php -S localhost:9000` in the root to preview template.
