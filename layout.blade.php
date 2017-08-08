@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<title>Homepage</title>
-		<link rel="stylesheet" href="/assets/master.css">
+		<link rel="stylesheet" href="/assets/main.css">
 	</head>
 	<body>
 		@yield('content')
