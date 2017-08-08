@@ -1,0 +1,23 @@
+{
+  "name": "ubiweb/template-starter",
+  "license": "MIT",
+  "description": "Ubiweb starter template.",
+  "homepage": "https://github.com/ubiweb-media/template-starter",
+  "authors": [
+    {
+      "name": "Greg Hunt",
+      "email": "freshbrewedweb@gmail.com",
+      "homepage": "https://freshbrewedweb.com"
+    }
+  ],
+  "keywords": [
+    "ubiweb", "blade", "template"
+  ],
+  "support": {
+    "issues": "https://github.com/ubiweb-media/template-starter/issues"
+  },
+  "require": {
+    "php": ">=5.4.0",
+    "composer/installers": "~1.0"
+  }
+}
