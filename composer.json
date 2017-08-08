@@ -3,6 +3,7 @@
   "license": "MIT",
   "description": "Ubiweb starter template.",
   "homepage": "https://github.com/ubiweb-media/template-starter",
+  "minimum-stability": "stable",
   "authors": [
     {
       "name": "Greg Hunt",
@@ -17,7 +18,6 @@
     "issues": "https://github.com/ubiweb-media/template-starter/issues"
   },
   "require": {
-    "php": ">=5.4.0",
-    "composer/installers": "~1.0"
+    "php": ">=5.4.0"
   }
 }
