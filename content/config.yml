@@ -1,0 +1,26 @@
+# A template must be specified
+template: template-starter
+site_title: Starter Template
+default_language: en
+languages:
+    - en
+# You can have multiple menus with different names.
+# The key for each menu item is the route name, defined in pages.yml
+menu:
+    main:
+        home:
+            text: Home
+            attributes:
+                class: menu-item
+        about:
+            text: About
+            attributes:
+                class: menu-item
+        "#":
+            text: Contact
+            attributes:
+                class: menu-item
+        "http://ubiweb.com":
+            text: Ubiweb
+            attributes:
+                class: menu-item
