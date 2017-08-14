@@ -5797,7 +5797,20 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+.hero {
+  background: no-repeat center center;
+  background-size: cover;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-bottom: 3em; }
+
 body {
   background: #e7e7e7; }
+
+.navbar {
+  margin-bottom: 0; }
 
 /*# sourceMappingURL=main.css.map */

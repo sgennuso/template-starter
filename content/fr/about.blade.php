@@ -4,7 +4,7 @@
 
 @section('content')
 	@component('hero', ['image' => $site->asset('images/sample-hero.jpg') ])
-    <h1>About</h1>
+    <h1>à propos</h1>
 	@endcomponent
 
 	<div class="row">

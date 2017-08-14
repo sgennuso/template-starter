@@ -1,9 +1,10 @@
 # A template must be specified
-template: template-starter
+template: self
 site_title: Starter Template
 default_language: en
 languages:
     - en
+    - fr
 # You can have multiple menus with different names.
 # The key for each menu item is the route name, defined in pages.yml
 menu:
@@ -16,7 +17,7 @@ menu:
             text: About
             attributes:
                 class: menu-item
-        "#":
+        "#contact":
             text: Contact
             attributes:
                 class: menu-item
