@@ -1,4 +1,10 @@
-(function($) {
+$( document ).ready(function() {
+
 	var title = $("title").text();
 	console.log(title + " is ready!");
-})( jQuery );
+
+	function submitContactForm(token) {
+		$("#contactForm").submit();
+	}
+
+});

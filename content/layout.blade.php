@@ -64,6 +64,7 @@
 
 		<script src="{{ $site->asset('scripts/jquery-3.2.1.min.js') }}"></script>
 		<script src="{{ $site->asset('vendor/bootstrap-sass/assets/javascripts/bootstrap.min.js') }}"></script>
+		<script src="https://www.google.com/recaptcha/api.js"></script>
 		<script src="{{ $site->asset('scripts/template.js') }}"></script>
 		@yield('foot')
 	</body>
