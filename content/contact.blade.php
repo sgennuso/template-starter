@@ -11,6 +11,7 @@
 		<label for="formMessage">{{ $site->trans('Message') }}</label>
 		<textarea id="formMessage" name="message" class="form-control"></textarea>
 	</div>
+	<input type="hidden" name="donotfill" value="" />
 	<input type="hidden" name="redirect" value="{{ $site->getUrl('thank-you') }}" />
 	<input type="hidden" name="to" value="{{ $site->global('admin_email') }}" />
 	<input type="hidden" name="subject" value="Contact from {{ $site->global('site_title') }}" />
