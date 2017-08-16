@@ -14,3 +14,4 @@ These are our available templates, all made with the starter as a base:
 ## Recommended Frontend Components
 - **Slider**: http://idangero.us/swiper/
 - **Lightbox**: https://noelboss.github.io/featherlight/
+- **Contact Form**: Use [Ubiweb Contact API](https://github.com/ubiweb-media/contact-api)
