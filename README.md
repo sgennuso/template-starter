@@ -15,3 +15,8 @@ These are our available templates, all made with the starter as a base:
 - **Slider**: http://idangero.us/swiper/
 - **Lightbox**: https://noelboss.github.io/featherlight/
 - **Contact Form**: Use [Ubiweb Contact API](https://github.com/ubiweb-media/contact-api)
+- **Blog**: Use the Ubiweb\Site::WP() class to connect a WordPress blog.
+  - Setup a WordPress.com blog for the domain. 
+  - In `config.yml` set `wp_domain=wp-account-domain`
+  - Now you can pull posts with `$site->wp->posts`
+  - Some routes will automatically be set up for to handle the blog portion.
