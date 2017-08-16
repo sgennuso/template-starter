@@ -4,6 +4,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<link rel="stylesheet" href="/assets/main.css">
+		<script defer src="{{ $site->asset('vendor/fontawesome/js/packs/solid.js') }}"></script>
+		<script defer src="{{ $site->asset('vendor/fontawesome/js/fontawesome.js') }}"></script>
 		@yield('head')
 	</head>
 	<body>
@@ -19,7 +21,7 @@
 			        <span class="icon-bar"></span>
 			      </button>
 			      <a class="navbar-brand" href="#">{{ $site->global('site_title') }}</a>
-				  <button type="button" class="navbar-btn btn btn-primary" data-toggle="modal" data-target="#ctaModal">{{ $site->trans('Call Now') }}</button>
+				  <button type="button" class="navbar-btn btn btn-primary" data-toggle="modal" data-target="#ctaModal"><i class="fa fa-phone"></i> {{ $site->trans('Call Now') }}</button>
 			    </div>
 
 				<!-- Site Languages -->
