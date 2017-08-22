@@ -33,7 +33,7 @@
 
 				<!-- Menu -->
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				  {!! $site->menu('main', ['attributes' =>
+				  {!! $site->display()->menu('main', ['attributes' =>
 					  ['class' => 'nav navbar-nav navbar-right']
 					]) !!}
 			    </div><!-- /.navbar-collapse -->

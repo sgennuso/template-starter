@@ -2,7 +2,7 @@ fr:
     /blog: /blogue
     /blog/{slug}: /blogue/{slug}
     /about: /a-propos
-    # /blog/first-blog-post: /blogue/un-article-francais
+    /blog/first-blog-post: /blogue/un-article-francais
     Toggle navigation: Ouvrir la navigation
     Call Now: Appelle maintenant
     Name: Nom
