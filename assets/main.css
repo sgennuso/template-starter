@@ -5797,6 +5797,11 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+.blog img {
+  display: block;
+  max-width: 100%;
+  height: auto; }
+
 .hero {
   background: no-repeat center center;
   background-size: cover;

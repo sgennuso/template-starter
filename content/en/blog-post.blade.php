@@ -3,13 +3,15 @@
 @section('title', 'Ubiweb Blog')
 
 @section('content')
-	@component('hero', ['image' => $site->asset('images/sample-hero.jpg') ])
-    <h1>Blog: {{ $site->blog()->get()->title() }}</h1>
+	@component('hero', ['image' => $site->blog()->post()->featured_image ])
+    <h1>Blog: {{ $site->blog()->post()->title }}</h1>
 	@endcomponent
 
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<div class="blog">
+				{!! $site->blog()->post()->content !!}
+			</div>
 		</div>
 	</div>
 @endsection

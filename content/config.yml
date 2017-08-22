@@ -7,6 +7,7 @@ languages:
     - en
     - fr
 blog: codecomment
+blog_base: /blog
 # You can have multiple menus with different names.
 # The key for each menu item is the route name, defined in pages.yml
 menu:
@@ -17,6 +18,10 @@ menu:
                 class: menu-item
         about:
             text: About
+            attributes:
+                class: menu-item
+        blog:
+            text: Blog
             attributes:
                 class: menu-item
         "#contact":

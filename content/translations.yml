@@ -1,6 +1,14 @@
 fr:
+    /blog: /blogue
+    /blog/{slug}: /blogue/{slug}
+    /about: /a-propos
+    # /blog/first-blog-post: /blogue/un-article-francais
     Toggle navigation: Ouvrir la navigation
     Call Now: Appelle maintenant
     Name: Nom
     Email: Courriel
     Submit: Soumettre
+    Home: Accueil
+    About: A propos
+    Blog: Blogue
+    Contact: Contactez-nous

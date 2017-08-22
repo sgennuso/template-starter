@@ -25,9 +25,11 @@
 			    </div>
 
 				<!-- Site Languages -->
-				@foreach( $site->languages('routes') as $lang => $route )
-				<p class="navbar-text navbar-right"><a href="{{ $route }}">{{ strtoupper($lang) }}</a></p>
+				<p class="navbar-text navbar-right">
+				@foreach( $site->languages('routes') as $lang => $url )
+				<a href="{{ $url }}">{{ strtoupper($lang) }}</a>
 				@endforeach
+				</p>
 
 				<!-- Menu -->
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
