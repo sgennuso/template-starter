@@ -19,7 +19,6 @@
   },
   "require": {
     "php": ">=5.4.0",
-    "vlucas/phpdotenv": "^2.4",
-    "ubiweb/template-starter": "dev-master"
+    "vlucas/phpdotenv": "^2.4"
   }
 }
