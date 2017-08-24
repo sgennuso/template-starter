@@ -3,7 +3,7 @@
 		<title>@yield('title', $site->global('site_title') )</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<link rel="stylesheet" href="/assets/main.css">
+		<link rel="stylesheet" href="{{ $site->asset('main.css') }}">
 		<script defer src="{{ $site->asset('vendor/fontawesome/js/packs/solid.js') }}"></script>
 		<script defer src="{{ $site->asset('vendor/fontawesome/js/fontawesome.js') }}"></script>
 		@yield('head')
