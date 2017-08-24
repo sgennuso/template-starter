@@ -28,7 +28,7 @@ menu:
             text: Contact
             attributes:
                 class: menu-item
-        "http://ubiweb.com":
+        "https://ubiweb.com":
             text: Ubiweb
             attributes:
                 class: menu-item
