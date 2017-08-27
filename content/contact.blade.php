@@ -15,6 +15,6 @@
 	<input type="hidden" name="redirect" value="{{ $site->getUrl('thank-you') }}" />
 	<input type="hidden" name="to" value="{{ $site->global('admin_email') }}" />
 	<input type="hidden" name="subject" value="Contact from {{ $site->global('site_title') }}" />
-	<button class="btn btn-primary g-recaptcha" data-sitekey="6Lcb8SwUAAAAAAtlDuXw_5PRC3_xZ6ZVE7FkVcen"
+	<button class="btn btn-primary g-recaptcha" data-sitekey="{{ env('CAPTCHA_SITE_KEY') }}"
 	data-callback="submitContactForm">{{ $site->trans('Submit') }}</button>
 </form>
