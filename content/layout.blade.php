@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="{{ $lang }}">
 	<head>
 		<title>@yield('title', $site->global('site_title') )</title>
